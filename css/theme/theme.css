@@ -4,7 +4,7 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-    background: #2395F4;
+    background: #4595ED;
 }
 
 .reveal {
@@ -44,7 +44,7 @@ body {
  *********************************************/
 
 .color-secondary {
-    color: #081447;
+    color: #0D3276;
 }
 
 .color-accent {
@@ -267,7 +267,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-    color: #081447;
+    color: #0D3276;
     text-decoration: none;
     -webkit-transition: color .15s ease;
     -moz-transition: color .15s ease;
@@ -282,18 +282,12 @@ body {
 
 .reveal .roll span:after {
     color: #fff;
-    background: #081447;
+    background: #0D3276;
 }
 
 /*********************************************
  * IMAGES
  *********************************************/
-.reveal section img {
-    margin: 15px 0px;
-    background: rgba(255, 255, 255, 0.12);
-    border: 4px solid #222;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-}
 
 .reveal section img.plain {
     border: 0;
@@ -308,7 +302,7 @@ body {
 
 .reveal a:hover img {
     background: rgba(255, 255, 255, 0.2);
-    border-color: #081447;
+    border-color: #0D3276;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
@@ -316,7 +310,7 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-    color: #081447;
+    color: #0D3276;
 }
 
 /*********************************************
@@ -324,7 +318,7 @@ body {
  *********************************************/
 .reveal .progress {
     background: rgba(0, 0, 0, 0.2);
-    color: #081447;
+    color: #0D3276;
 }
 
 .reveal .progress span {
