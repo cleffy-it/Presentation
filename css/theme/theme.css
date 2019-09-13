@@ -107,14 +107,6 @@ body {
     line-height: 1.3;
 }
 
-/* Ensure certain elements are never xx-larger than the slide itself */
-.reveal img,
-.reveal video,
-.reveal iframe {
-    max-width: 95%;
-    max-height: 95%;
-}
-
 .reveal strong,
 .reveal b {
     font-weight: bold;
@@ -304,6 +296,30 @@ body {
     background: rgba(255, 255, 255, 0.2);
     border-color: #0D3276;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.small-image {
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.medium-image {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.large-image {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.align-vertical {
+    display: inline-block;
+    vertical-align: middle
 }
 
 /*********************************************
