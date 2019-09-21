@@ -43,6 +43,10 @@ body {
  * COLORS
  *********************************************/
 
+.color-primary {
+    color: #4595ED;
+}
+
 .color-secondary {
     color: #0D3276;
 }
@@ -296,8 +300,10 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
-.rounded {
+.rounded-image {
     border-radius: 50%;
+    max-width: 25%;
+    max-height: 25%;
 }
 
 .small-image {
