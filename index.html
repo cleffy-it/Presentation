@@ -429,14 +429,131 @@
             <section>
                 <h2 class="color-secondary">4.1. Écrire</h2>
             </section>
-            <section>
-                <h3>Détecter quand le code a un problème</h3>
+            <section data-background-color="#0D3276">
+                <p>10 fois plus de temps à lire qu'à écrire</p>
+                <p>
+                    Lire du code
+                    <span class="color-primary" style="font-size: larger">&equiv;</span>
+                    Lire un journal
+                </p>
+                <p>Découper, séparer et bien nommer</p>
             </section>
             <section>
-                <h3>Bien nommer</h3>
+                <h3>🤔</h3>
+                <p class="fragment fade-right">Les variables, méthodes, classes sont-elles nommées correctement ?</p>
+                <p class="fragment fade-right">Cette méthode, classe fait-elle trop de choses ?</p>
+                <p class="fragment fade-right">Utilise-t-on le bon patron de conception ou la bonne interface ?</p>
+            </section>
+            <section data-background-color="#0D3276">
+                <h1>⚠️</h1>
+                <p>Les outils ne suffisent pas !</p>
             </section>
             <section>
-                <h3>Le design</h3>
+                <img class="rounded-image" src="lib/images/Robert-Cecil-Martin.png" alt="Photo de Robert C. MARTIN">
+                <p class="color-secondary">Robert C. MARTIN</p>
+                <p style="font-style: italic;">Clean Code</p>
+            </section>
+            <section>
+                <h3 class="color-secondary">Comment savoir si le code a un problème ?</h3>
+                <p class="fragment fade-down">La longueur des méthodes (≃ 20 lignes), des classes (≃ 200 lignes)</p>
+                <p class="fragment fade-down">Le niveau d’indentation (≤ 2)</p>
+                <p class="fragment fade-down">Le nombre d’arguments d’une méthode (≤ 3)</p>
+                <p class="fragment fade-down">La capacité de lecture en diagonale</p>
+                <p class="fragment fade-down">Le nombre de dépendances par classe</p>
+                <p class="fragment fade-down">La complexité des tests automatisés</p>
+            </section>
+            <section>
+                <h3 class="color-secondary">Bien nommer grâce au vocabulaire métier</h3>
+
+                <p>Utiliser les termes du métier dans le code...</p>
+                <p class="fragment fade-right">Réduire les risques d’incompréhension</p>
+                <p class="fragment fade-right">Réduire l'effort pour passer du métier au code</p>
+
+                <p class="fragment fade-left">Behavior Driven Development (BDD)</p>
+                <p class="fragment fade-left">
+                    Domain-Driven Design (DDD) -
+                    <span style="font-style: italic;">Ubiquitous Language</span>
+                </p>
+            </section>
+            <section>
+                <h3 class="color-secondary">Bien nommer grâce à l’usage de la langue</h3>
+                <p>
+                    Code
+                    <span class="color-secondary" style="font-size: larger">&equiv;</span>
+                    Anglais
+                </p>
+                <p class="fragment fade-down">
+                    <span class="fragment strike highlight-red">Précise et technique</span>
+                </p>
+                <p class="fragment fade-down">
+                    <span class="fragment highlight-green">Utiliser la langue du métier</span>
+                </p>
+                <p class="fragment fade-down">
+                    <span class="fragment strike highlight-red">Franglais</span>
+                </p>
+            </section>
+            <section>
+                <h3 class="color-secondary">Pour avoir un bon design...</h3>
+                <p class="fragment fade-right">
+                    Est-ce que les pratiques de développement de l'équipe permettent appréhender des problématiques
+                    complexes?
+                </p>
+                <p class="fragment fade-right">
+                    Est-ce que l’on parvient à produire un code clair et compréhensible pour tous ?
+                </p>
+            </section>
+            <section>
+                <p><span style="font-style: italic;" class="color-secondary">Design Simple</span> de Kent Beck</p>
+                <ul>
+                    <li class="fragment fade-down">
+                        <span class="color-secondary">1. </span>
+                        Tous les tests passent (donc le code fonctionne)
+                    </li>
+                    <li class="fragment fade-down">
+                        <span class="color-secondary">2. </span>
+                        L’intention est claire
+                    </li>
+                    <li class="fragment fade-down">
+                        <span class="color-secondary">3. </span>
+                        Il n’y a pas de duplication
+                    </li>
+                    <li class="fragment fade-down">
+                        <span class="color-secondary">4. </span>
+                        Le code est minimaliste grâce aux principes KISS & YAGNI
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>
+                        <span class="color-secondary">Single Responsability :</span>
+                        <span class="fragment fade-down smaller">ne faire qu’une seule chose mais la faire bien</span>
+                    </li>
+                    <li>
+                        <span class="color-secondary">Open/Closed :</span>
+                        <span class="fragment fade-down smaller">
+                        une classe doit être ouverte à l’extension mais fermée à la modification
+                    </span>
+                    </li>
+                    <li>
+                        <span class="color-secondary"> Liskov Substitution :</span>
+                        <span class="fragment fade-down smaller">
+                        toute implémentation d’une interface doit pouvoir se substituer à une autre
+                    </span>
+                    </li>
+                    <li>
+                        <span class="color-secondary">Interface Segragation :</span>
+                        <span class="fragment fade-down smaller">
+                        une classe ne doit implémenter une interface que si elle a réellement besoin de remplir son contrat
+                    </span>
+                    </li>
+                    <li>
+                        <span class="color-secondary">Dependency Inversion :</span>
+                        <span class="fragment fade-down smaller">
+                        le code ne doit pas interagir directement avec l’extérieur mais par des abstractions
+                    </span>
+                    </li>
+                </ul>
             </section>
         </section>
         <section>
