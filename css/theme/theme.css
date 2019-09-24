@@ -374,3 +374,78 @@ blockquote p::after {
 blockquote cite {
     font-size: 1.5rem;
 }
+
+.shape {
+    margin: auto;
+}
+
+.one {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 60px solid #43A047;
+}
+
+.two {
+    border-bottom: 75px solid #388E3C;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    height: 0;
+    width: 100px;
+}
+
+.three {
+    border-bottom: 100px solid #2E7D32;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    height: 0;
+    width: 220px;
+}
+
+.four {
+    border-bottom: 125px solid #1B5E20;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 380px;
+}
+
+.one-inverse {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 60px solid #43A047;
+}
+
+.two-inverse {
+    border-top: 75px solid #388E3C;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    height: 0;
+    width: 100px;
+}
+
+.three-inverse {
+    border-top: 100px solid #2E7D32;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    height: 0;
+    width: 220px;
+}
+
+.four-inverse {
+    border-top: 125px solid #1B5E20;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 380px;
+}
+
+.text-pyramid {
+    margin-top: -50px;
+    position: fixed;
+    margin-left: -50px;
+    font-size: 30px;
+}

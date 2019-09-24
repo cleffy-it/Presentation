@@ -78,49 +78,43 @@
             <section>
                 <h1>1. L'entreprise</h1>
             </section>
-            <section data-background-color="#FFFFFF">
-                <img class="large-image" src="lib/images/ITLINK-logo.png" alt="Logo d'IT Link">
-                <p class="fragment fade-up color-secondary">
-                    <span class="fragment strike highlight-red">[aɪtiliŋk]</span>
-                </p>
-                <p class="fragment fade-up color-secondary">
-                    <span class="fragment strike highlight-red">[itelɛ̃ŋk]</span>
-                </p>
-                <p class="fragment fade-up color-secondary">
-                    <span class="fragment highlight-green">[iteliŋk]</span>
-                </p>
-            </section>
-            <section>
-                <p class="fragment fade-left">
+            <section data-background-color="#FFFFFF"
+                     data-background-image="lib/images/ITLINK-logo.png"
+                     data-background-opacity="0.2">
+                <p class="fragment fade-left color-primary">
                     Fondée en
                     <span class="color-secondary">1986</span> par
                     <span class="color-secondary">Robert Zribi</span>
                 </p>
-                <p class="fragment fade-left">
+                <p class="fragment fade-left color-primary">
                     Fusionne avec
                     <span class="color-secondary">IPSIS</span> en
                     <span class="color-secondary">2017</span>
                 </p>
                 <p class="fragment fade-left color-secondary">+550 Linkers</p>
-                <p class="fragment fade-left"><span class="color-secondary">3</span> pays</p>
-                <p class="fragment fade-left"><span class="color-secondary">13</span> agences</p>
-                <p class="fragment fade-left"><span class="color-secondary">8</span> pôles d'expertise</p>
+                <p class="fragment fade-left color-primary"><span class="color-secondary">3</span> pays</p>
+                <p class="fragment fade-left color-primary"><span class="color-secondary">13</span> agences</p>
+                <p class="fragment fade-left color-primary"><span class="color-secondary">8</span> pôles d'expertise</p>
             </section>
-            <section>
+            <section data-background-color="#FFFFFF"
+                     data-background-image="lib/images/ITLINK-logo.png"
+                     data-background-opacity="0.2">
                 <h1>💸</h1>
-                <p class="fragment fade-up">
+                <p class="fragment fade-up color-primary">
                     <span class="color-secondary">44 M€</span> en
                     <span class="color-secondary">2017</span>
                 </p>
-                <p class="fragment fade-up">
+                <p class="fragment fade-up color-primary">
                     <span class="color-secondary">43 M€</span> en
                     <span class="color-secondary">2018</span>
                 </p>
-                <p class="fragment fade-up">
+                <p class="fragment fade-up color-primary">
                     <span class="color-secondary">25 M€</span> actuellement
                 </p>
             </section>
-            <section data-background-color="#FFFFFF">
+            <section data-background-color="#FFFFFF"
+                     data-background-image="lib/images/ITLINK-logo.png"
+                     data-background-opacity="0.2">
                 <h1>🤝</h1>
                 <img class="fragment medium-image" style="padding-right: 20px" src="lib/images/DGA-logo.png" alt="Logo de la DGA">
                 <img class="fragment medium-image" style="padding-right: 20px" src="lib/images/INTERPOL-logo.png" alt="Logo d'Interpol">
@@ -638,14 +632,108 @@
             <section>
                 <h2 class="color-secondary">4.3. Tester</h2>
             </section>
-            <section>
-                <h3>Contrôler et construire grâce aux tests</h3>
+            <section data-background-color="#0D3276">
+                <p class="color-primary">
+                    Pour réduire le coût des défauts détectés et minimiser la perte de temps...
+                </p>
+                <ul>
+                    <li class="fragment fade-down">Tester = Habitude</li>
+                    <li class="fragment fade-down">Au plus tôt durant le développement</li>
+                    <li class="fragment fade-down">Automatiser les tests importants & sensibles</li>
+                </ul>
+            </section>
+            <section data-background-color="#FFFFFF">
+                <p class="color-secondary">Tests manuels</p>
+                <ul class="color-primary">
+                    <li class="fragment fade-down">Tests d’acceptation utilisateur</li>
+                    <li class="fragment fade-down">Tests d’exploration</li>
+                    <li class="fragment fade-down">Tests d’usabilité</li>
+                </ul>
+            </section>
+            <section data-background-color="#FFFFFF">
+                <p class="color-secondary">Outils spécialisés</p>
+                <ul class="color-primary">
+                    <li class="fragment fade-down">Tests de sécurité</li>
+                    <li class="fragment fade-down">Tests de charge</li>
+                    <li class="fragment fade-down">Tests de robustesse</li>
+                </ul>
             </section>
             <section>
-                <h3>Quels tests faut-il mettre en place ?</h3>
+                <p class="color-secondary">Tests manuels et automatisés</p>
+                <ul>
+                    <li class="fragment fade-down">Tests des nouvelles fonctionnalités</li>
+                    <li class="fragment fade-down">Non régression fonctionnelle</li>
+                    <li class="fragment fade-down">Automatiser les tests importants & sensibles</li>
+                </ul>
             </section>
             <section>
-                <h3>La pyramide de tests automatisés</h3>
+                <p class="color-secondary">Tests automatisés</p>
+                <ul>
+                    <li class="fragment fade-down">Tests unitaires du code</li>
+                    <li class="fragment fade-down">Tests d’intégration des composants</li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="color-secondary">Quels tests faut-il mettre en place ?</h3>
+                <blockquote class="fragment fade-left">
+                    <p>Je n’ai pas besoin de tester car je suis développeur. Il y a une équipe de testeurs, ce n’est
+                        pas mon travail... </p>
+                </blockquote>
+            </section>
+            <section>
+                <table class="smaller">
+                    <thead>
+                    <tr class="color-secondary">
+                        <th>Type</th>
+                        <th>Granularité</th>
+                        <th>Feedback</th>
+                        <th>Implémentation</th>
+                    </tr>
+                    </thead>
+                    <tbody class="smaller">
+                    <tr class="fragment">
+                        <td>Unitaire</td>
+                        <td>Très fine</td>
+                        <td>Très rapide</td>
+                        <td>Très simple</td>
+                    </tr>
+                    <tr class="fragment">
+                        <td>Intégration et fonctionnel</td>
+                        <td>Partie de logiciel</td>
+                        <td>Rapide</td>
+                        <td>Simple</td>
+                    </tr>
+                    <tr class="fragment">
+                        <td>End to end / IHM</td>
+                        <td>Logiciel entier</td>
+                        <td>Lent</td>
+                        <td>Complexe</td>
+                    </tr>
+                    <tr class="fragment">
+                        <td>Critique</td>
+                        <td>Logiciel entier</td>
+                        <td>Très lent</td>
+                        <td>Très complexe</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section data-background-color="#FFFFFF" class="smaller">
+                <h3 class="color-secondary" style="padding-bottom: 40px;">La pyramide des tests</h3>
+                <div class="shape one fragment"><span style="font-size: 30px;"></span></div>
+                <div class="shape two fragment"><span style="font-size: 30px;">IHM & E2E</span></div>
+                <div class="shape three fragment"><span style="font-size: 30px;">Intégration</span></div>
+                <div class="shape four fragment"><span style="font-size: 30px;">Unitaires</span></div>
+            </section>
+            <section data-background-color="#FFFFFF" class="smaller">
+                <h3 class="color-secondary" style="padding-bottom: 40px;">⚠️ L'anti-pattern</h3>
+                <div class="shape four-inverse fragment"></div>
+                <span class="text-pyramid">Manuels</span>
+                <div class="shape three-inverse fragment"></div>
+                <span class="text-pyramid">IHM & E2E</span>
+                <div class="shape two-inverse fragment"></div>
+                <span class="text-pyramid">Inté.</span>
+                <div class="shape one-inverse fragment"></div>
             </section>
         </section>
         <section>
